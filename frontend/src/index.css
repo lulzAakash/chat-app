@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    background: linear-gradient(rgb(45, 44, 44), rgb(36, 32, 32));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+body{
+    background-color: rgb(17, 17, 17);
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.online{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(13, 178, 13);
+    border-radius: 50%;
+}
